@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var greetingLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -19,8 +19,8 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func welcomeButtonTapped() {
-        welcomeLabel.text = "WELCOME!!!"
+    @IBAction func welcomeButton() {
+        greetingLabel.text = "WELCOME!!!"
     }
 }
 

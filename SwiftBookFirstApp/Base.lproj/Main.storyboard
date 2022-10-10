@@ -30,7 +30,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Tap to see &quot;Welcome&quot;"/>
                                         <connections>
-                                            <action selector="welcomeButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="GDG-fM-MXb"/>
+                                            <action selector="welcomeButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="mr6-6t-67F"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -44,7 +44,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="welcomeLabel" destination="844-Lq-1fZ" id="EH7-6k-PJm"/>
+                        <outlet property="greetingLabel" destination="844-Lq-1fZ" id="EH7-6k-PJm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
