@@ -15,88 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My first App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EWo-Xp-zsj">
-                                <rect key="frame" x="122" y="144" width="170" height="36"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5w-yx-LZ9">
-                                <rect key="frame" x="117" y="230" width="180" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="9Y7-l7-u0K"/>
-                                    <constraint firstAttribute="height" constant="64" id="PLu-5U-k6S"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button to Tap">
-                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
-                                </state>
-                                <buttonConfiguration key="configuration" style="filled" title="Start" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4w-SG-am4">
-                                <rect key="frame" x="59" y="788" width="180" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="iuB-4q-vph"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="muE-py-RL2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button to Tap">
-                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
-                                </state>
-                                <buttonConfiguration key="configuration" style="filled" title="Bottom" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ol-wz-bh8">
-                                <rect key="frame" x="214" y="35" width="180" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="D1O-fB-8PS"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="XOA-N8-iQq"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button to Tap">
-                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
-                                </state>
-                                <buttonConfiguration key="configuration" style="filled" title="Top" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="30"/>
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                </buttonConfiguration>
-                            </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dc0-m3-x05">
-                                <rect key="frame" x="103.66666666666669" y="224" width="207" height="448"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                            </view>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
-                        <constraints>
-                            <constraint firstItem="A5w-yx-LZ9" firstAttribute="top" secondItem="EWo-Xp-zsj" secondAttribute="bottom" constant="50" id="A7b-c2-upR"/>
-                            <constraint firstItem="A4w-SG-am4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BJi-3u-kK9"/>
-                            <constraint firstItem="dc0-m3-x05" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ggj-EW-y2d"/>
-                            <constraint firstItem="A5w-yx-LZ9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JBj-N8-8JU"/>
-                            <constraint firstItem="dc0-m3-x05" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2" id="KAK-nG-lfB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3ol-wz-bh8" secondAttribute="trailing" constant="20" id="LaK-gX-es8"/>
-                            <constraint firstItem="3ol-wz-bh8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="35" id="Rxi-he-OtY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A4w-SG-am4" secondAttribute="bottom" constant="10" id="S3R-An-wUH"/>
-                            <constraint firstItem="dc0-m3-x05" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="SYt-Vt-bz2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A4w-SG-am4" secondAttribute="trailing" constant="175" id="YGH-Qb-Y9Q"/>
-                            <constraint firstItem="EWo-Xp-zsj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eo3-cZ-UGP"/>
-                            <constraint firstItem="EWo-Xp-zsj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="erE-DT-KlY"/>
-                            <constraint firstItem="dc0-m3-x05" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lvf-Ff-g8h"/>
-                            <constraint firstItem="dc0-m3-x05" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="mCT-yu-buQ"/>
-                            <constraint firstItem="dc0-m3-x05" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2" id="nxN-Pz-7SY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="3ol-wz-bh8" secondAttribute="top" constant="9" id="pK7-Ox-tnN"/>
-                            <constraint firstItem="3ol-wz-bh8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="uh2-jn-Exx"/>
-                            <constraint firstItem="dc0-m3-x05" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2" id="wPO-rk-iHJ"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -105,14 +25,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
